@@ -1,0 +1,26 @@
+{
+"header":{ "title":"A Sample Dashboard" },
+"data":[
+{ "leftPct":1,"topPct":1,"widthPct":44,"heightPct":44,"properties":{"title":"Diagram #1: A Line Chart","fill":"#ffddbb" },
+	"type":"line-chart","data":[{"x":10,"y":10},{"x":20,"y":20},{"x":30,"y":10}],
+	"attributes":{"stroke":"#ff7733","pointFill":"red","xDataType":"timeInSeconds"} },
+{ "leftPct":51,"topPct":1,"widthPct":44,"heightPct":44,"properties":{"title":"Diagram #2: A Filled Line Chart","fill":"#ffffaf"},
+	"type":"filled-line-chart","data":[{"x":10,"y":10},{"x":20,"y":20},{"x":30,"y":15},{"x":40,"y":22},{"x":50,"y":12}],
+	"attributes":{"stroke":"#afafff","fill":"#4f4faa","pointFill":"red"} },
+{ "leftPct":51,"topPct":51,"widthPct":44,"heightPct":44,"properties":{"title":"Diagram #3: A Table","fill":"#7fffff"},"type":"table",
+	"data":{"columnTitles":["column1","column2"],"rowTitles":["ТЕКСТ В ЯЧЕЙКУ ТАБЛИЦЫ","row2"],"rows":[[10,20],[30,40]]} },
+{ "leftPct":1,"topPct":51,"widthPct":44,"heightPct":44,"properties":{"title":"Diagram #4: A Bar Chart (Histogram)","fill":"#afafff"},
+	"type":"bar-chart","data":[{"x":10,"y":10},{"x":20,"y":20},{"x":30,"y":15},{"x":40,"y":22},{"x":50,"y":12}],
+	"attributes":{"fill":"#ff00ff","stroke":"#00ff00"} },
+{ "leftPct":11,"topPct":21,"widthPct":44,"heightPct":44,"properties":{"title":"Diagram #5: A Pie Chart","fill":"#efafaf"}, "type":"pie-chart",
+	"data": [ { "label":"Value 1", "color":"red", "value":180 }, { "label":"Value 1", "color":"green", "value":50 }, 
+		{ "label":"Value 1", "color":"yellow", "value":120 }, { "label":"Value 1", "color":"blue", "value":110 } ] },
+{ "leftPct":41,"topPct":44,"widthPct":44,"heightPct":44,"properties":{"title":"Diagram #6: A Tornado Chart","fill":"#bfefef"},"type":"tornado",
+	"data": [ {"label":"Operation #1", "unit":"%", "color":"red", "value":-50 }, 
+		{"label":"Operation #2", "unit":"%", "color":"yellow", "value":-30 }, {"label":"Operation #3", "unit":"%", "color":"green", "value":-10 }, 
+		{"label":"Operation #4", "unit":"%", "color":"blue", "value":20 }, {"label":"Operation #5", "unit":"%", "color":"magenta", "value":50 } ] },
+{ "leftPct":15,"topPct":20,"widthPct":12,"heightPct":44,"properties":{"title":"The text title","fill":"#ffdfb4" },
+	"type":"text","data":"This is a text",
+	"attributes":{"stroke":"#ff7733","pointFill":"red","xDataType":"timeInSeconds"} },
+]
+}
